@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} está ejecutando un pull request
 on: 
   pull_request:
     branches:
-      - default
+      - main
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
